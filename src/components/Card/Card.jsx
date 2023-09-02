@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 import CircularProgress from '@mui/material/CircularProgress';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import View from '../../assets/view.png';
-import Cart from '../../assets/cart.png';
-import Like from '../../assets/Like';
-import Liked from '../../assets/Likded';
+import View from '../../assets/images/view.png';
+import Cart from '../../assets/images/cart.png';
+import Like from '../../assets/images/Like';
+import Liked from '../../assets/images/Likded';
 
 function CircularProgressWithLabel(props) {
     return (

@@ -1,5 +1,6 @@
 import React from 'react'
-import Banner from '../../assets/banner.png'
+import Banner from '../../assets/images/banner.png';
+import { Link ,Outlet } from 'react-router-dom';
 import "../../assets/css/Home.css"
 import Card from '../../components/Card/Card'
 export default function Home() {
@@ -39,7 +40,7 @@ export default function Home() {
                                     }}>
                                         <p className='title'>Gold big hoops</p>
                                         <p className='price'>$ 68,00</p>
-                                        <a href="" className='btnCarousel'>VIEW PRODUCT</a>
+                                        <Link to="/products" className='btnCarousel'>VIEW PRODUCT</Link>
                                     </div>
 
                                 </div>
@@ -52,7 +53,7 @@ export default function Home() {
                                 <p className='TypeShop'>Shop The Latest</p>
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 viewAllDiv">
-                                <a href="" className="viewAll">View All</a>
+                                <Link to="/products" className="viewAll">View All</Link>
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                                 <Card />
@@ -106,6 +107,7 @@ export default function Home() {
                         </div>
                     </div>
                 </footer>
+                <Outlet/>
             </div>
         </>
     )
