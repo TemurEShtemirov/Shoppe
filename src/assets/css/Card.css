@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    border: none;
+    margin: 10px 20px 20px 20px;
+}
+
+.ImgProduct {
+    width: 377px;
+    height: 380px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.ProductName {
+    margin-top: 24px;
+    color: #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.ProductBrand {
+    color: #000;
+    font-family: 'DM Sans',
+        sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.ProductPrice {
+    color: #A18A68;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.hover-buttons {
+    display: none;
+}
+
+.card:hover .hover-buttons {
+    display: flex;
+    flex-direction: column;
+    /* Adjust as needed */
+}

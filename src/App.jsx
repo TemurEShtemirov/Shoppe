@@ -6,7 +6,7 @@ import Layout from "./pages/layout/Layout";
 export default function App() {
   return (
     <>
-    <div className="App">
+    <div className="App container">
         {/* <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
