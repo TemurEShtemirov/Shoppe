@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pProducts{
+    color:rgba(0, 0, 0, 1);
+    font-family: "DM Sans",sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+}

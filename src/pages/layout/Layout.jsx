@@ -11,15 +11,15 @@ export default function Layout() {
                     <li className="nav-item">
                         <Link to="/" className="nav-link">Home</Link>
                     </li>
-                    {/* <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
-                    </li>
                     <li className="nav-item">
+                        <Link to="/infoproduct" className="nav-link">Info Product</Link>
+                    </li>
+                    {/* <li className="nav-item">
                         <a className="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li> */}
                 </ul>
-            </div>
 <Outlet/>
+            </div>
         </>
     )
 }

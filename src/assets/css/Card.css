@@ -51,7 +51,209 @@
 }
 
 .card:hover .hover-buttons {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    /* Adjust as needed */
+
+}
+.Modal {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnModal {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: rgba(65, 59, 59, 0.6);
+    margin-left: 10px;
+    display: flex;
+    transition: 1s;
+    margin-top: 30px;
+    opacity: 100%;
+}
+
+.btnModal:hover {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.6);
+    margin-left: 10px;
+    display: flex;
+    transition: 1s;
+    margin-top: 30px;
+    opacity: 20%;
+}
+
+.imgModal {
+    width: 500px;
+    height: 650px;
+}
+
+.Box {
+    margin-left: 405px;
+}
+
+.button22 {
+    border: none;
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+.btn2 {
+    margin-left: 10px;
+}
+
+.btn1 {
+    margin-left: 10px;
+}
+
+.product_image {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product_info {
+    margin-left: 400px;
+}
+
+.product_info_modal {
+    /* padding-bottom: 300px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.close_button {
+    border: none;
+    border-radius: 10px 100px / 120px;
+    background-color: #5adbb5;
+    padding: 10px 20px;
+    transition: 1s;
+    margin-top: -100px;
+    margin-left: -300px;
+    opacity: 100%;
+    display: inline-block
+}
+
+.close_button:hover {
+    border: none;
+    border-radius: 20%;
+    background-color: #5adbb5;
+    padding: 10px 20px;
+    transition: 1s;
+    margin-top: -100px;
+    margin-left: -300px;
+    display: inline-block
+}
+
+.span_modal {
+    opacity: 100%;
+    transition: 0.6s;
+}
+
+.span_modal:hover {
+    opacity: 10%;
+    background-color: #5adbb5;
+}
+
+.BtnInfo {
+    border: none;
+    border-radius: 10px 100px / 120px;
+    padding: 5px 10px;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.BtnInfo:hover {
+    border: none;
+    border-radius: 20%;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.priceInfo {
+    font-family: 'DM Sans',
+        sans-serif;
+    font-weight: 400;
+
+}
+
+.desc {
+    margin-left: -40px;
+}
+
+.recName {
+    font-family: 'Dm Sans', sans-serif;
+    color: #000;
+}
+
+.recBrand {
+    font-family: 'Dm Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #000;
+}
+
+.recPrice {
+    font-family: 'Dm Sans',
+        sans-serif;
+    color: #A18A68;
+    font-size: 20px;
+    margin-top: -0px;
+}
+
+.recRow {
+    font-family: 'Dm Sans',
+        sans-serif;
+    font-weight: 600;
+}
+
+.cardRecmonded {
+    margin-top: 10px;
+}
+
+.recImg {
+    width: 200px;
+}
+
+.BoxRow {
+    margin-left: -100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
 }
